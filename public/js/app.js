@@ -26,8 +26,8 @@ searchFrom.addEventListener('submit',(event)=>{
             msg1.textContent=error
         }else{
             // console.log(data)
-           var resdata=`<ul><li>Temperature:${data.temperature }</li><li>Weather_Descriptions:${data.weather_descriptions }</li><li>Location:${data.location }</li><li>Place_name:${data.place_name }</li></ul>`
-            msg1.textContent=address
+           var resdata=` <h2><ul><li>Temperature:${data.temperature }</li><li>Weather_Descriptions:${data.weather_descriptions }</li><li>Location:${data.location }</li><li>Place_name:${data.place_name }</li></ul></h2>`
+            // msg1.textContent=address
             msg2.innerHTML=resdata
         }
         

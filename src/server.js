@@ -29,7 +29,7 @@ app.use(express.json());
 
 app.get('',(req,res)=>{
     res.render('index',{
-        title:'User details',
+        title:'Weather_App',
         name:'Dinesh',
         age:23
     })

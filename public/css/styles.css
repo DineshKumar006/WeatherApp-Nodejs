@@ -1,0 +1,20 @@
+.root{
+    margin: auto;
+   
+    text-align: center;
+}
+
+.txt{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+    background-color: green;
+}
