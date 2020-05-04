@@ -14,7 +14,10 @@ searchFrom.addEventListener('submit',(event)=>{
     event.preventDefault();
         console.log(ele.value)
       const address=ele.value 
-fetch(' http://localhost:4000/weather?address='+address+' ').then((res)=>{
+// fetch('http://localhost:4000/weather?address='+address+' ').then((res)=>{
+    // when delpoy to heroku remove localhost:400
+    fetch('/weather?address='+address+' ').then((res)=>{
+
 
     res.json().then(data=>{
 

@@ -7,7 +7,7 @@ const weatherReport=require('./utils/weatherReport');
 const Report=require('./routes/reports');
 const cors =require('cors');
 
-const port =4000 | process.env.PORT
+const port =process.env.PORT || 4000
 // console.log(__dirname)
 
 // console.log(path.join(__dirname,'../public'))
