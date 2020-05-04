@@ -1,4 +1,3 @@
-console.log('asdsddsd')
 
 
 const searchFrom=document.querySelector('.Form')
